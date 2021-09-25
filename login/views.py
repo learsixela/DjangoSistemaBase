@@ -6,8 +6,15 @@ import bcrypt
 from .models import User
 
 # Create your views here.
+# si no existe, se debe crear la carpeta templates en la app
+# ademas crear los archivos html
+def index(request):
+    return render(request, 'index.html')
+
 def login(request):
     return render(request, 'login.html')
+
+
 def registrar(request):
     return render(request, 'registro.html')
 

@@ -18,6 +18,10 @@ from django.urls import path, include
 
 urlpatterns = [
     #path('admin/', admin.site.urls),
-    path('', include('login.urls')),
+    # '' -> sera la ruta por dedecto al ingresar a la aplicacion
+    # login -> app a la cual accederemos
+    # archivo url de las app login, si no existe, se crea
+    path('login', include('login.urls')),
     path('home/', include('home.urls')),
+    path('', include('login.urls')),
 ]

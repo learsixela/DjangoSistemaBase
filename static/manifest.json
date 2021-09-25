@@ -1,0 +1,22 @@
+{
+    "name": "Django PWA",
+    "short_name": "djangopwa",
+    "start_url": "/",
+    "scope": ".",
+    "display": "standalone",
+    "background_color": "#FFF",
+    "theme_color": "#493174",
+    "description": "Test app for Django and PWA",
+    "dir": "ltr",
+    "lang": "en-US",
+    "orientation": "portrait-primary",
+    "icons": [{
+        "src": "/static/img/django-logo_160.png",
+        "type": "image/png",
+        "sizes": "160x160"
+    }, {
+        "src": "/static/img/django-logo_160.png",
+        "type": "image/png",
+        "sizes": "512x512"
+    }]
+}
